@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan;
+}
+
+
+.signupcontainer{
+    width: 96VW;
+    max-height: 88vh;
+    margin-right: 0px;
+    border-radius: 15px;
+    box-shadow:  -11px -11px 22px #cbc8ff,
+             11px 11px 22px #cbc8ff;
+    display: flex;
+    margin-top: 60PX;
+    background-color: #f0f0f0;
+}
+
+.logo{
+    font-family: 'Aboreto', cursive;
+    position: relative;
+    display:flex;
+    gap:40px;
+    font-size: 20px;
+    top: 13px;
+
+}
+
+.logo svg{
+    position: relative;
+    left: 30px;
+    top: -1px;
+
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    right: 50px;
+    gap: 5px;
+    
+}
+
+.signuptitle{
+    position: relative;
+    top: -39px;
+    right:75px;
+}
+.signupconnect{
+    position: relative;
+    bottom: 34px;
+}
+
+.profilelab input{
+    font-size:16px ;
+    padding:10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 7px;
+    border: 1px solid  white;
+}
+
+.profilelab svg{
+    position: relative;
+    left:0px;
+    top: 0px;
+}
+
+.profilelab input[type=file]{
+    display: none;
+}
+
+  
+
+form input{
+    font-size:16px ;
+    padding:15px ;
+    padding-left: 85px;
+    padding-right: 70px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 7px;
+    border: 1px solid  white;
+}
+
+form input:hover{
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+
+}
+
+.showpassword{
+    position: absolute;
+    left: 260px;
+    top: -1px;
+    font-size: 16px;
+    padding: 11px;
+    padding-left:21px ;
+    padding-right: 21px;
+    border-radius:11px;
+}
+
+.eyeicon{
+    position: absolute;
+    left: 14px;
+    top: 4px;
+    z-index: 1000;
+
+}
+
+
+
+form button{
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #84E1E6;
+    border: #84E1E6;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+form button:hover{
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+
+form span{
+    font-size: 16px;
+}
+
+
+
+.emaillab{
+    position: relative;
+}
+
+form .mailicon{
+    position: absolute;
+    left: 3vh;
+    top: 16px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .passicon{
+    position: absolute;
+    left: 3vh;
+    top: 16px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .usericon{
+    position: absolute;
+    left: 3vh;
+    top: 16px;
+    z-index: 1000;
+    font-size: 29px;
+    color: rgba(0, 0, 0, 0.7)
+}
