@@ -39,9 +39,10 @@ The following resources were used in the creation of Chat Nexus:
 - [Font Awesome](https://fontawesome.com/): Icons used throughout the app.
 - [Unsplash](https://unsplash.com/): Images used in the app's user interface.
 - <br>
-- [Dribble](https://dribbble.com/shots/5035570-Login-page?utm_source=Clipboard_Shot&utm_campaign=iamsourabh&utm_content=Login%20page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iamsourabh&utm_content=Login%20page&utm_medium=Social_Share)
-- ![Screenshot 2023-01-25 202739](https://user-images.githubusercontent.com/91087103/222221618-39397bba-040e-45a0-b474-56d6eadc322b.png)
+- [Dribble login page](https://dribbble.com/shots/5035570-Login-page?utm_source=Clipboard_Shot&utm_campaign=iamsourabh&utm_content=Login%20page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=iamsourabh&utm_content=Login%20page&utm_medium=Social_Share)
 - Inspiration  for the login and signup page's design and user interface.
+- ![Screenshot 2023-01-25 202739](https://user-images.githubusercontent.com/91087103/222221618-39397bba-040e-45a0-b474-56d6eadc322b.png)
+- 
 <br>
 <br>
 
