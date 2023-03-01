@@ -37,7 +37,7 @@ Chat Nexus was built using the following technologies:
 The following resources were used in the creation of Chat Nexus:
 
 
-- [icons8 bubblegum theme](https://icons8.com/illustrations/style--bubble-gum): Icons used throughout the app.
+- [icons8 bubblegum theme](https://icons8.com/illustrations/style--bubble-gum): SVGs and Icons used throughout the app the logo svg all were taken from  icons8 bubblegum theme.
 - ![Screenshot 2023-03-01 232456](https://user-images.githubusercontent.com/91087103/222222424-ef28ebbe-57ab-41d4-bbdf-3a78d8015a4c.png)
 - <br>
 - <br>
