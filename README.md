@@ -32,38 +32,27 @@ Chat Nexus was built using the following technologies:
 <br>
 <br>
 
+
 ## 🔗 Resource Credits
 
 The following resources were used in the creation of Chat Nexus:
 
+- [icons8 bubblegum theme](https://icons8.com/illustrations/style--bubble-gum) <br>
+  SVGs and Icons used throughout the app the logo svg all were taken from icons8 bubblegum theme.
+  ![Screenshot 2023-03-01 232456](https://user-images.githubusercontent.com/91087103/222222424-ef28ebbe-57ab-41d4-bbdf-3a78d8015a4c.png)
 
-- [icons8 bubblegum theme](https://icons8.com/illustrations/style--bubble-gum): SVGs and Icons used throughout the app the logo svg all were taken from  icons8 bubblegum theme.
- ![Screenshot 2023-03-01 232456](https://user-images.githubusercontent.com/91087103/222222424-ef28ebbe-57ab-41d4-bbdf-3a78d8015a4c.png)
-
- <br>
- <br>
- 
--  [Dribble login page](https://dribbble.com/shots/5035570-Login-page)
-Inspiration  for the login and signup page's design and user interface.
-
+- [Dribble login page](https://dribbble.com/shots/5035570-Login-page) <br>
+  Inspiration for the login and signup page's design and user interface.
   ![Screenshot 2023-01-25 202739](https://user-images.githubusercontent.com/91087103/222221618-39397bba-040e-45a0-b474-56d6eadc322b.png)
- 
-<br>
-<br>
 
--  [annyang: ^2.6.1](https://www.npmjs.com/package/annyang)
-This package is used for voice recognition in the Chat Nexus website. The version used in this project is ^2.
-6.1.
+- [annyang: ^2.6.1](https://www.npmjs.com/package/annyang) <br>
+  This package is used for voice recognition in the Chat Nexus website. The version used in this project is ^2.6.1.
+  ![image](https://user-images.githubusercontent.com/91087103/222226483-d31775ad-9fa5-474c-bc3c-1cdc5152b1a8.png)
 
-![image](https://user-images.githubusercontent.com/91087103/222226483-d31775ad-9fa5-474c-bc3c-1cdc5152b1a8.png)
+- [emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react) <br>
+  This package is used for the emoji picker feature in the Chat Nexus website. The version used in this project is ^3.6.5.
+  ![image](https://user-images.githubusercontent.com/91087103/222227277-5c26ab95-e172-4961-9dfb-9235ed07fb42.png)
 
-<br>
-<br>
-
-- [ emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react)
-This package is used for the emoji picker feature in the Chat Nexus website. The version used in this project is ^3.6.5.
-
-![image](https://user-images.githubusercontent.com/91087103/222227277-5c26ab95-e172-4961-9dfb-9235ed07fb42.png)
 
 
 
