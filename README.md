@@ -102,11 +102,35 @@ Chat Nexus can also be accessed through the following website link: https://chat
 
 ## ❓ FAQs
 
-Q: How many chat rooms can I join at once?
-A: You can join as many chat rooms as you like.
+Q: how many accounts chat nexus can handle? <br>
+A: at present , as chat nexus is running on free database pack it can only handle about 7-10 accounts and 300 connections.
+but with paid database pack it will have no limits and will send and receive messages even faster
 
-Q: Is my data secure?
+
+Q: Does reporting users actually work? <br>
+A: yes, there is a whole seperate report model which sends reporter details,reported details and reason to database.
+
+<br>
+
+Q: Does delete account permanently delete account? <br>
+A: yes, delete account permanently deletes the user from collection of users in the database with the chats.
+
+<br>
+
+Q: why i am not able to login even after registering? <br>
+A: username,email and password are case sensitive so it is possible you are registered but entering the details incorrectly
+
+<br>
+
+Q: are all chats saved? <br>
 A: Yes, Chat Nexus uses secure user authentication and stores chat history in a secure database.
+
+<br>
+Q: how much did it take to complete  chat nexus? <br>
+A: it took around 2 months to complete chat nexus
+
+
+<br>
 
 ## 📞 feedback
 
