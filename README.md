@@ -1,5 +1,5 @@
 <p align="center">
- ![Screenshot 2023-03-01 225153](https://user-images.githubusercontent.com/91087103/222215034-579495cb-83b6-40fc-82a5-be4cd6780a61.png)
+<img src="https://user-images.githubusercontent.com/91087103/222215034-579495cb-83b6-40fc-82a5-be4cd6780a61.png" alt="Chat Nexus Logo">
 
 </p>
 
