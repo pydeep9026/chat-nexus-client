@@ -43,7 +43,7 @@ Chat Nexus can be configured using environment variables. The following variable
 
 ## 💻 Usage through Website Link
 
-Chat Nexus can also be accessed through the following website link: https://your-website-link.com
+Chat Nexus can also be accessed through the following website link: https://chatnexus.tech/
 
 
 
