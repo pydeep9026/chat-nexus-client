@@ -77,6 +77,6 @@ A: You can join as many chat rooms as you like.
 Q: Is my data secure?
 A: Yes, Chat Nexus uses secure user authentication and stores chat history in a secure database.
 
-## 📞 Support
+## 📞 feedback
 
-For support or help with Chat Nexus, contact us at support@chat-nexus.com.
+For feedback or review for Chat Nexus, review at (feedback form)[https://form.typeform.com/to/yrFOxBqF]
