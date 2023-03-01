@@ -24,29 +24,28 @@ Chat Nexus was built using the following technologies:
 - **N**ode.js: A JavaScript runtime environment used to build the server-side application.
 - **socket.io**: A JavaScript library used for real-time, bidirectional communication between the client and server.
 
-## 🛠️ Installation
+## 🛠️ Installation, Usage, and Configuration
 
-To install Chat Nexus, follow these steps:
+To install, use, and configure Chat Nexus, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/chat-nexus.git`
 2. Install dependencies: `npm install`
 3. Start the server: `npm start`
-
-## 🚀 Usage
-
-To use Chat Nexus, follow these steps:
-
-1. Open the app in your web browser: `http://localhost:3000`
-2. Sign up for a new account or log in with an existing account.
-3. Join a chat room or create a new one.
-4. Start sending and receiving messages in real-time.
-
-## 🔧 Configuration
+4. Open the app in your web browser: `http://localhost:3000`
+5. Sign up for a new account or log in with an existing account.
+6. Join a chat room or create a new one.
+7. Start sending and receiving messages in real-time.
 
 Chat Nexus can be configured using environment variables. The following variables can be set:
 
 - `PORT`: The port number to use for the server. Default is `3000`.
 - `MONGODB_URI`: The URI for the MongoDB database. Default is `mongodb://localhost/chat-nexus`.
+
+## 💻 Usage through Website Link
+
+Chat Nexus can also be accessed through the following website link: https://your-website-link.com
+
+
 
 ## 👥 Contribution
 
