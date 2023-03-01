@@ -51,7 +51,7 @@ Inspiration  for the login and signup page's design and user interface.
 <br>
 <br>
 
-- (annyang: ^2.6.1)[https://www.npmjs.com/package/annyang]
+-  [annyang: ^2.6.1](https://www.npmjs.com/package/annyang)
 This package is used for voice recognition in the Chat Nexus website. The version used in this project is ^2.
 6.1.
 
