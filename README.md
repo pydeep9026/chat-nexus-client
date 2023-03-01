@@ -12,17 +12,17 @@ Chat Nexus is a web-based chat application that allows users to communicate with
 ## 🚀 Features
 
 -💬 Real-time messaging <br>
--🔐 User Authentication (Register / Login) <br>
--💬 Real-time messaging using Socket.io <br>
--🗑️ Delete account <br>
--🗑️ Delete chats <br>
--🚩 Report users <br>
--📥 Download profile pictures <br>
--📋 Personalised profile tabs <br>
--🔍 Search usernames <br> 
--🎤 Voice recognition for chat messages <br>
--😀 Send emojis <br> 
--📜Message history <br>
+- 🔐 User Authentication (Register / Login) <br>
+- 💬 Real-time messaging using Socket.io <br>
+- 🗑️ Delete account <br>
+- 🗑️ Delete chats <br>
+- 🚩 Report users <br>
+- 📥 Download profile pictures <br>
+- 📋 Personalised profile tabs <br>
+- 🔍 Search usernames <br> 
+- 🎤 Voice recognition for chat messages <br>
+- 😀 Send emojis <br> 
+- 📜Message history <br>
 
 <br>
 <br>
