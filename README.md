@@ -79,4 +79,4 @@ A: Yes, Chat Nexus uses secure user authentication and stores chat history in a 
 
 ## 📞 feedback
 
-For feedback or review for Chat Nexus, review at (feedback form)[https://form.typeform.com/to/yrFOxBqF]
+For feedback or review for Chat Nexus, review at [feedback form]https://form.typeform.com/to/yrFOxBqF)
