@@ -1,0 +1,306 @@
+
+
+
+.chatlogo{
+  font-family: 'Aboreto', cursive;
+  position: absolute;
+  display:flex;
+  gap:2.7vh;
+  font-size: 20px;
+  top: 1vh;
+
+}
+
+.chatlogo svg{
+  position: relative;
+  width: 4vh;
+  height: 5vh;
+  left: 2vh;
+  top: -0.4vh;
+}
+
+.chatlogo span{
+    font-size: 2vh;
+    height: 1vh;
+
+}
+
+.currentuser{
+    position:absolute;
+    right: 3vh;
+    top: 0.4vh;
+    gap: 40PX;
+}
+
+.currentuser img{
+    width: 4vh;
+    height: 4vh;
+    object-fit: cover;
+    border-radius: 250px;
+    border: 1px solid black;
+    position: relative;
+    top: 6px;
+    margin-right:0.7vh;
+}
+
+.currentuser img:hover{
+    border: 1px solid #84E1E6;
+}
+
+.currentuser span{
+    position: relative;
+    top: -1.2vh;
+    font-size: 1.8vh;
+    margin-right: 4vh;
+}
+
+
+.currentusercard{
+    position: absolute;
+    right: 6vh;
+    top: 3vh;
+    z-index: 10000;
+    width: 22vh;
+    gap: 10px;
+    height: 24vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8vh;
+    display: none;
+    background-color: #ffffff;
+    box-shadow:  -10px -10px 18px #d0d0d0,
+             10px 10px 18px #f0f0f0;
+  }
+  .currentusercard img{
+    width: 7vh;
+    height: 7vh;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: 1vh;
+    left: 7.3vh;
+    margin-right: 8PX;
+}
+
+.currentusercard img:hover{
+    border: 1px solid #84E1E6;
+}
+
+.currentusercard .namecard{
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.currentusercard .emailcard{
+    position: relative;
+    top: 12%;
+    text-align: center;
+    font-size: 1.4vh;
+}
+
+.currentusercard .logout{
+    border-radius: 1.5vh;
+    padding: 0.4vh;
+    position: absolute;
+    left: 34%;
+    top: 67%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color: #84E1E6;
+    border: #84E1E6;
+    font-size: 1.8vh;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.currentusercard .logout:hover{
+    border-radius: 0.8vh;
+    transition: ease-in 0.2s;
+}
+
+.currentusercard .logout:active {
+    transform: scale(0.95);
+  }
+
+  .currentusercard .deleteac{
+    border-radius: 1.5vh;
+    padding: 0.4vh;
+    position: absolute;
+    left:17%;
+    top: 83%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background-color:orangered;
+    border: #84E1E6;
+    font-size: 1.8vh;
+    font-weight: 540;
+    border: 1px solid black ;
+}
+.currentusercard .deleteac:hover{
+    border-radius: 0.8vh;
+    transition: ease-in 0.2s;
+}
+
+.currentusercard .deleteac:active {
+    transform: scale(0.95);
+  }
+
+
+  
+  .currentuser:hover + .currentusercard{
+    display: block;
+  }
+
+  .currentuser:hover + .currentusercard, .currentusercard:hover {
+    display: block;
+  }
+
+
+  .dropdown{
+    position: absolute;
+    top: 0.6vh;
+    right: 1vh;
+    width: 30px; 
+    cursor: pointer;
+  }
+  .dropdown:active {
+    transform: scale(0.95);
+    transform: translateY(0.3vh);
+  }
+
+  .dropmenu{
+    position: absolute;
+    cursor: pointer;
+    box-shadow:  5px 5px 10px #bebebe,
+             5px 5px 10px #ffffff;
+    right: 2vh;
+    top: 5vh;
+    width: auto;
+    list-style:none;
+    background-color: white;
+    padding:0.5vh;
+    border-radius: 1vh;
+    z-index: 1003;
+  }
+
+  .dropmenudiv img{
+    position: absolute;
+    width: 3vh;
+    margin-right: 1vh;
+    margin-top: 0.8vh;
+  }
+
+  .dropmenu img{
+    width: 2vh;
+    position: relative;
+    top: 5px;
+    left: -2px;
+  }
+
+  .dropmenu li{
+    display: flex;
+    width: 17vh;
+    font-size:1.8vh;
+    padding-bottom: 8px;
+    padding-left: 0.2vh;
+    z-index: 1005;
+    padding: 0.7vh;
+    border-radius: 0.6vh;
+}
+
+.dropmenu li:hover{
+    background-color: #E6E6FA;
+}
+
+
+
+
+  .deleteuserpopoup{
+    position: fixed;
+    border: 1px solid black;
+    height:100vh;
+    width: 100vw;
+    top: -0px;
+    left: 0px;
+    z-index: 10000;
+    background-color: rgba(0,0,0,0.3);
+  }
+
+  .deletecard{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30vh;
+  width: 50vh;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  }
+
+  .deletecard svg{
+    position: absolute;
+    width: 15vh;
+    height: 13vh;
+    left:16vh;
+    top: 7vh;
+  }
+
+  .deletecard .buttonyes{
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+    left: 13%;
+    top: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: orangered;
+    border: #84E1E6;
+    font-size: 1.7vh;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.deletecard .buttonyes:hover{
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+
+.deletecard h3{
+  font-size: 2vh;
+}
+
+.deletecard p{
+  font-size: 1.6vh;
+}
+
+.deletecard .buttonyes:active {
+    transform: scale(0.95);
+  }
+
+
+  .deletecard .buttonno{
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+    left: 53%;
+    top: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #84E1E6;
+    border: #84E1E6;
+    font-size: 1.7vh;
+    font-weight: 500;
+    border: 1px solid black;
+}
+.deletecard .buttonno:hover{
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+
+.deletecard .buttonno:active {
+    transform: scale(0.95);
+  }

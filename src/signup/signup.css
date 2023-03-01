@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan;
+}
+
+
+.signupcontainer{
+    width: 96VW;
+    height: 88vh;
+    margin-right: 0px;
+    border-radius: 1.3vh;
+    box-shadow:  -11px -11px 22px #cbc8ff,
+             11px 11px 22px #cbc8ff;
+    display: flex;
+    margin-top: 2vh;
+    background-color: #f0f0f0;
+}
+
+.logo{
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    display:flex;
+    gap:2.7vh;
+    font-size: 20px;
+    top: 9.6vh;
+  
+  }
+  
+  .logo svg{
+    position: relative;
+    width: 4vh;
+    height: 5vh;
+    left: 2vh;
+    top: -0.4vh;
+  }
+  
+  .logo span{
+      font-size: 2vh;
+      height: 1vh;
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    position: absolute;
+    right: 8vh;
+    top: 24vh;
+    gap: 0.3vh;
+}
+
+.signuptitle{
+    position: relative;
+    top: 0vh;
+    right:8vh;
+    font-size: 3.7vh;
+}
+.signupconnect{
+    position: relative;
+    bottom: 1vh;
+}
+
+
+
+.profilelab input{
+    font-size:1.7vh;
+    padding:1.2vh;
+
+    padding-left: 1.3vh;
+    position: absolute;
+    padding-right: 1vh;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 0.6vh;
+    border: 1px solid  white;
+}
+
+.profilelab svg{
+    position: absolute;
+    left: 0vh;
+}
+
+.profilelab input[type=file]{
+    display: none;
+    position: absolute;
+    width: 11vh;
+    height: 11vh;
+    left: 0vh;
+    top: 0vh;
+}
+
+  
+
+form input{
+    font-size:1.7vh ;
+    padding:1.7vh;
+    padding-left: 9.4vh;
+    padding-right: 7vh;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 0.8vh;
+    border: 1px solid  white;
+}
+
+form input:hover{
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+
+}
+
+.showpassword{
+    position: absolute;
+    left: 28vh;
+    top: -1px;
+    height: 0.6vh;
+    width:1vh;
+    padding: 1vh;
+    padding-left:1.7vh ;
+    padding-right:1.9vh;
+    border-radius:1.2vh;
+}
+
+/*width: 1vh;
+    height: 0.6vh;
+    position: absolute;
+    left: 28vh;*/
+
+    .eyeicon{
+    width: 1.4vh;
+    position: absolute;
+    top: 0.2vh;
+    left: 0.8vh;
+    }
+
+
+    .photoupload  svg{
+        width: 11vh;
+        height: 11vh;
+        
+    }
+
+
+
+
+
+
+
+form button{
+    margin-top: 1.7vh;
+    border-radius: 2.3vh;
+    padding: 1.2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: #84E1E6;
+    border: #84E1E6;
+    font-size: 1.8vh;
+    font-weight: 500;
+    border: 1px solid black;
+    
+}
+
+form button:hover{
+    border-radius: 1vh;
+    transition: ease-in 0.2s;
+}
+
+form button:active {
+    transform: scale(0.95);
+  }
+
+form span{
+    font-size: 1.8vh;
+}
+
+
+
+.emaillab{
+    position: relative;
+}
+
+form .mailicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.7vh;
+    font-size: 2.6vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .passicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.7vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .usericon{
+    position: absolute;
+    left: 3vh;
+    top: 1.7vh;
+    z-index: 1000;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+/*form .loginmailicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.5vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .loginpassicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.6vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .loginusericon{
+    position: absolute;
+    left: 3vh;
+    top: 1.7vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}*/
+
+
+@media only screen and (min-width: 551px) and (max-width: 767px) {
+    .signupcontainer form{
+        top: 34vh;
+        left: 20%;
+    }
+  }
+  
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      
+      
+  
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      
+  
+    }
+    
+    @media only screen and (min-width: 1200px) {
+    .signupcontainer form{
+        right: 35vh;
+    }
+    }
+    

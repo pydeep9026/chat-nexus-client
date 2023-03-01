@@ -1,0 +1,79 @@
+ .welcome{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .welcome svg{
+    position: absolute;
+    width: 60vh;
+    height: 60vh;
+    top: 23vh;
+    left: 36vh;
+ }
+
+ .welcome p{
+    position: relative;
+    top: 77vh;
+    left: 50vh;
+    font-size: 2vh;
+
+}
+
+ @media only screen and (min-width: 1700px) {
+    .welcome svg{
+        left: 50vh;
+        top: 15vh;
+        width: 70vh;
+        height: 70vh;
+    }
+
+    .welcome p{
+        left: 73vh;
+
+    }
+
+ }
+    /*
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .welcome svg{
+            left: 0px;
+            top: -400px;
+            width: 600px;
+        }
+    
+        .welcome p{
+            left: 180px;
+            top:-1050px;
+    
+        }
+        }
+    
+    
+    
+    @media only screen and (max-width: 167px) {
+        .welcome svg{
+            left: 0px;
+            top: -400px;
+            width: 600px;
+        }
+    
+        .welcome p{
+            left: 180px;
+            top:-1050px;
+    
+        }
+        }*/
+
+        /*@media only screen and (min-width: 768px) and (max-width: 1199px) {
+            .welcome svg{
+                left: 320px;
+                top: 170px;
+                width: 600px;
+            }
+        
+            .welcome p{
+                position: absolute;
+                left: 440px;
+        
+            }
+     }*/

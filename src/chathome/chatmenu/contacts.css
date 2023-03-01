@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+
+/*.searchresult{
+    overflow-y: auto; 
+    overflow-x: hidden;
+    margin-left: -171px;
+    margin-top: 195px;
+    background-color:#f0f0f0 ;
+    cursor: pointer;
+    gap: 5px;
+    height: 75.6%;
+    border-bottom-left-radius: 15px;
+}*/
+
+.searchresult::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+  }
+   
+  .searchresult::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+   
+  .searchresult::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+.diplayedusername{
+    position: relative;
+    font-size: 1.7vh;
+}
+
+.search svg{
+    position: fixed;
+    left: 0vh;
+    top: 18vh;
+    width: 35vh;
+    height: 6vh;
+}
+
+.contact{
+    padding: 13px;
+    z-index: 1000;
+    width: 32vh;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #E6E6FA;
+}
+
+
+.contact:hover{
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+
+}
+
+
+.contact img{
+    width: 4vh;
+    height: 4vh;
+    object-fit: cover;
+    border-radius: 250px;
+    border: 1px solid black;
+}
+
+
+.search{
+    position: absolute;
+    margin-top:105px;
+    border-bottom-left-radius: 15px;
+}
+
+.search input{
+    font-size:1.4vh ;
+    padding:15px ;
+    width: 19.8vh;
+    height: 5.3vh;
+    position: fixed;
+    top: 18vh;
+    left:4.8vh;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+}
+
+.search input:hover{
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+}
+.search h1{
+    position: fixed;
+    left: 4.6vh;
+    top: 13vh;
+    font-size:3.5vh ;
+}
+
+.selected{
+    background-color: #84E1E6;
+    /*color: #fde080;*/
+}
+
+.selected:hover{
+    background-color: #84E1E6;
+}

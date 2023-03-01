@@ -1,0 +1,218 @@
+
+
+
+.chatinput form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  position: absolute;
+  height: 7vh;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  background-color:#cbc8ff;
+  left: 0px;
+  top: 67vh;
+}
+
+
+
+.chatinput form .sendbtn{
+    position: absolute;
+    bottom: 0.7vh;
+    height: 5.6vh;
+    width: 10vh;
+    margin-left:46vh;
+    background-color: #84E1E6;
+    border-radius: 2.8vh;
+    border: 1px solid #E6E6FA;
+    border: 1px solid slategray;
+}
+
+
+.chatinput form .sendbtn:hover{
+    border-radius: 10px;
+    transition: ease-in 0.2s;
+}
+
+.chatinput form .sendbtn:active {
+    transform: scale(0.95);
+  }
+
+
+.chatinput form span svg{
+    position: absolute;
+    left: 2vh;
+    top: -1.3vh;
+    width: 5.4vh;
+    height: 10vh;    
+    cursor: pointer;
+}
+
+.chatinput form span svg:active {
+    transform: scale(0.90);
+    transition: ease-in 0.2s;
+  }
+
+.emojipicker{
+    position: fixed;
+    left:34vh;
+    bottom:18vh;
+    width: 15vh;
+}
+
+form .mic{
+    position:absolute;
+    width: 1vh;
+    height: 1vh;
+    top: -2.5vh;
+    margin-right: -17vh;
+}
+
+form .mic img{
+    position: absolute;
+    width: 7vh;
+    top:3vh;
+    margin-left: 1.6vh;
+    cursor: pointer;
+}
+
+form .mic svg{
+    position: absolute;
+    left: 20vh;
+    width: 1vh;
+}
+
+
+
+.chatinput form input{
+    width: calc(100% - 1vh); 
+    max-width: 30vh;
+    position: absolute;
+    bottom: 0.4vh;
+    min-height: 6vh;
+    margin-left: -13vh;
+    max-height:6.1px ;
+    border-radius: 2vh;
+    border: 1px solid #E6C6FA;
+    font-size: 1.6vh;
+}
+
+.chatinput .sendicon{
+    position: absolute;
+    top: -2.3vh;
+    left:1.7vh;
+    font-size: 3.5vh;
+    color: white;
+}
+
+/*
+@media only screen and (min-width: 2200px) {
+
+    .chatinput form{
+    }
+
+    .chatinput form input{
+        width: 1320px;
+        left: -30px;
+    }
+
+    .chatinput form .sendbtn{
+        left: 690px;
+    }
+
+    .chatinput form span svg{
+        left:20px ;
+
+    }
+
+ }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .chatinput form{
+            position: relative;
+            left: 0px;
+            height: 60px;
+            width: 100%;
+            border-radius: 15px;
+            border-bottom-left-radius: 0px;
+            background-color:#cbc8ff;
+            left: 0PX;
+            bottom:712px;
+        }
+    }
+    
+    @media only screen and (min-width: 568px) and (max-width: 991px) {
+        .chatinput form{
+            position: relative;
+            left: 0px;
+            height: 60px;
+            width: 100%;
+            border-radius: 15px;
+            border-bottom-left-radius: 0px;
+            background-color:#cbc8ff;
+            left: 0PX;
+            bottom:712px;
+        }
+ 
+    }
+    
+    @media only screen and (max-width: 767px) {
+
+    }*/
+
+    /*@media only screen and (min-width: 1800px) {
+        /*.chatinput form{
+            bottom:712px;
+        }*/
+    
+        /*.chatinput form input{
+            width: 1180px;
+            left: -30px;
+            bottom: -37px;
+        }
+    
+        .chatinput form .sendbtn{
+            left: 670px;
+            bottom: 39px;
+        }
+    
+        .chatinput form span svg{
+            left:78px ;
+    
+        }
+        form .mic{
+            position: absolute;
+            left: 1255px;
+            top: -16px;
+        }
+
+        form .mic img{
+            position: absolute;
+            width: 55px;
+            top: 23px;
+            left: 67px;
+            cursor: pointer;
+        }
+        
+        }*/
+        
+        @media only screen and (min-width: 992px) and (max-width: 10099px) {
+            /*.chatinput form{
+                position: absolute;
+                bottom:51vh;
+            }*/
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+           /* .chatinput form{
+                bottom:712px;
+            }*/
+        }
+        
+        @media only screen and (max-width: 767px) {
+        
+        }
+
+

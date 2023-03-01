@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: WHITE;
+    overflow: hidden;
+}
+
+
+.chatcontainer{
+    width: 96VW;
+    height: 87vh;
+    left: 2vw;
+    top: 3vh;
+    border-radius: 15px;
+    box-shadow:  -11px -11px 22px #cbc8ff,
+             11px 11px 22px #cbc8ff;
+    display: flex;
+    background-color: white;
+    position:absolute;
+}
+
+.chatpage{
+  position: absolute; 
+  height: 85%;
+  bottom: 0px;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  flex-grow:1;
+  right: 0px;
+  left: 32vh;
+}
+
+.searchresult{
+    position: absolute;
+    width: 32vh;
+    height: 65vh;
+    background-color:#f0f0f0 ;
+    bottom: 0px;
+}
+
+.contactbody{
+    position: absolute;
+    width: 306px;
+    height: 75.6%;
+    bottom: 0px;
+    border-radius: 4px;
+    background-color:#f0f0f0 ;
+}
+
+.contactbody img{
+    position: absolute;
+    width: 60px;
+    bottom: 250px;
+    left: 110px;
+    color: yellow;
+}
+

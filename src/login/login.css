@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.logincontainer{
+    width: 96VW;
+    height: 88vh;
+    margin-right: 0px;
+    border-radius: 1.3vh;
+    box-shadow:  -11px -11px 22px #cbc8ff,
+             11px 11px 22px #cbc8ff;
+    display: flex;
+    margin-top: 2vh;
+    background-color: #f0f0f0;
+}
+
+.loginlogo{
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    display:flex;
+    gap:2.7vh;
+    font-size: 20px;
+    top: 9.6vh;
+  
+  }
+  
+  .loginlogo svg{
+    position: relative;
+    width: 4vh;
+    height: 5vh;
+    left: 2vh;
+    top: -0.4vh;
+  }
+  
+  .loginlogo span{
+      font-size: 2vh;
+      height: 1vh;
+}
+
+
+.loginsvgimage{
+    position: absolute;
+    margin-bottom: 20vh;
+    left: 80px;
+    height: 35vw;
+    width: 35vw;
+}
+
+
+
+
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    gap:0.5vh;
+    position: absolute;
+    left: 35vw;
+    top: 30vh;
+
+}
+
+
+
+
+.logintitle{
+    position: relative;
+    top: -3vh;
+    right:3.7vh;
+    font-size: 3.5vh;
+}
+.loginconnect{
+    position: relative;
+    bottom: 3.4vh;
+    font-size: 1.75vh;
+}
+
+form input{
+    font-size:1.7vh ;
+    padding:1.7vh;
+    padding-left: 9.4vh;
+    padding-right: 7vh;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 0.8vh;
+    border: 1px solid  white;
+}
+
+form input:hover{
+    background-color: #E6E6FA;
+    border: 1px solid #E6E6FA;
+
+}
+
+.showpassword{
+    width: 1vh;
+    height: 0.6vh;
+    position: absolute;
+    left: 28vh;
+}
+
+.eyeicon{
+    width: 1.4vh;
+    position: absolute;
+    top: 0.2vh;
+    left: 0.8vh;
+    }
+
+
+
+
+form button{
+    margin-top: 1.7vh;
+    border-radius: 2.3vh;
+    padding: 1.2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: #84E1E6;
+    border: #84E1E6;
+    font-size: 1.8vh;
+    font-weight: 500;
+    border: 1px solid black;
+    
+}
+
+form button:hover{
+    border-radius: 1vh;
+    transition: ease-in 0.2s;
+}
+
+form button:active {
+    transform: scale(0.95);
+  }
+
+form span{
+    font-size: 1.8vh;
+}
+
+
+
+.loginemaillab{
+    position: relative;
+}
+
+form .loginmailicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.5vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .loginpassicon{
+    position: absolute;
+    left: 3vh;
+    top: 1.6vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+form .loginusericon{
+    position: absolute;
+    left: 3vh;
+    top: 1.7vh;
+    font-size: 2.7vh;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .loginsvgimage{
+    top: 10vh;
+    }
+
+
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .loginsvgimage{
+    top: 20vh;
+    }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .loginsvgimage{
+            top: 30vh;
+            }
+        
+    }

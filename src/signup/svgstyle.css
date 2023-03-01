@@ -1,0 +1,38 @@
+
+.svgsignup  svg{
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  left: -5vh;
+  bottom: 20vh;
+}
+
+@media only screen and (min-width: 551px) and (max-width: 767px) {
+  .svgsignup svg {
+    top: 2vh;
+    left: 25%;
+  }
+
+}
+
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .svgsignup svg {
+      bottom: 17vh;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .svgsignup svg {
+      bottom: 20vh;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .svgsignup svg {
+      top: 3vh;
+    }
+  }
+  
