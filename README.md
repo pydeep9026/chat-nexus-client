@@ -42,6 +42,7 @@ The following resources were used in the creation of Chat Nexus:
 
  <br>
  <br>
+ 
 -  [Dribble login page](https://dribbble.com/shots/5035570-Login-page)
 Inspiration  for the login and signup page's design and user interface.
 
