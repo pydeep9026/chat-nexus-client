@@ -41,6 +41,7 @@ The following resources were used in the creation of Chat Nexus:
 - [Pinterest](https://www.pinterest.com/): Inspiration for the app's design and user interface.
 <br>
 <br>
+
 ## 🛠️ Installation, Usage, and Configuration
 
 To install, use, and configure Chat Nexus, follow these steps:
@@ -59,6 +60,7 @@ Chat Nexus can be configured using environment variables. The following variable
 - `MONGODB_URI`: The URI for the MongoDB database. Default is `mongodb://localhost/chat-nexus`.
 <br>
 <br>
+
 ## 💻 Usage through Website Link
 
 Chat Nexus can also be accessed through the following website link: https://chatnexus.tech/
