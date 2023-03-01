@@ -57,6 +57,12 @@ This package is used for voice recognition in the Chat Nexus website. The versio
 
 ![image](https://user-images.githubusercontent.com/91087103/222226483-d31775ad-9fa5-474c-bc3c-1cdc5152b1a8.png)
 
+<br>
+<br>
+
+- [ emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react)
+This package is used for the emoji picker feature in the Chat Nexus website. The version used in this project is ^3.6.5.
+![image](https://user-images.githubusercontent.com/91087103/222227277-5c26ab95-e172-4961-9dfb-9235ed07fb42.png)
 
 
 
