@@ -96,36 +96,38 @@ Chat Nexus can be configured using environment variables. The following variable
 
 Chat Nexus can also be accessed through the following website link: https://chatnexus.tech/
 
+.
+
 
 
 ## ❓ FAQs
 
-Q: How many accounts Chat Nexus can handle? <br>
-A: At present, as Chat Nexus is running on a free database pack it can only handle about 7-10 accounts and 300 connections.
-But with paid database pack it will have no limits and will send and receive messages even faster.
+Q: how many accounts chat nexus can handle? <br>
+A: at present , as chat nexus is running on free database pack it can only handle about 7-10 accounts and 300 connections.
+but with paid database pack it will have no limits and will send and receive messages even faster
 
 
-Q: Does reporting users work? <br>
-A: Yes, there is a whole separate report model which sends reason, reporter and reported detail to the database.
-
-<br>
-
-Q: Does deleting an account permanently delete the account? <br>
-A: Yes, it permanently deletes the user information from the database with the chats.
+Q: Does reporting users actually work? <br>
+A: yes, there is a whole seperate report model which sends reporter details,reported details and reason to database.
 
 <br>
 
-Q: Why am I not able to log in even after registering? <br>
-A: Username, email and password are case sensitive so you may be registered but entering the details incorrectly.
+Q: Does delete account permanently delete account? <br>
+A: yes, delete account permanently deletes the user from collection of users in the database with the chats.
 
 <br>
 
-Q: Are all chats saved? <br>
+Q: why i am not able to login even after registering? <br>
+A: username,email and password are case sensitive so it is possible you are registered but entering the details incorrectly
+
+<br>
+
+Q: are all chats saved? <br>
 A: Yes, Chat Nexus uses secure user authentication and stores chat history in a secure database.
 
 <br>
-Q: How much time did it take to complete Chat Nexus? <br>
-A: It took around 2 months to complete Chat Nexus.
+Q: how much did it take to complete  chat nexus? <br>
+A: it took around 2 months to complete chat nexus
 
 
 <br>
