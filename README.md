@@ -1,7 +1,7 @@
 <p align="center" >
 <img src="https://user-images.githubusercontent.com/91087103/222215034-579495cb-83b6-40fc-82a5-be4cd6780a61.png" width="200" height="100" alt="Chat Nexus Logo">
 
-</p>
+</p >
 
 # Chat Nexus
 
