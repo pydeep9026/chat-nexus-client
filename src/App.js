@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import Signuppage from './signup';
 import Loginpage from './login';
 import Chathome from './chathome/loading';
-/*import favicon from './favicon.png'*/
+
 
 function App() {
   return (
