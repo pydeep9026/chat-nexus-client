@@ -26,7 +26,6 @@ viewBox="0 0 64 64">
     <Route  path='/signup' element={<Signuppage/>}/>
     <Route  path='/login' element={<Loginpage/>}/>
     <Route  path='/' element={<Chathome/>}/>
-
   </Routes>
   </>
   )
