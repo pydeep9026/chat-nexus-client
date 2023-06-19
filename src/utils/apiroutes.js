@@ -1,4 +1,5 @@
 /*export const host="http://localhost:5000";*/
+
 export const host="https://chatnexus-server.onrender.com";
 
 export const signuproute=`${host}/api/auth/signup`
