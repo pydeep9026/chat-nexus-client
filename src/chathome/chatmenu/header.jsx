@@ -6,7 +6,7 @@ import './header.css'
 import dropdown from './dropdown.png'
 import gitstar from './gitstar.png'
 import { deleteaccountroute } from '../../utils/apiroutes';
-
+     
 const Header=({currentusername,currentuserimage,currentuseremail})=>{
   const [loading, setLoading] = useState(false);
   const [displaydelete,setdisplaydelete]=useState(false)
