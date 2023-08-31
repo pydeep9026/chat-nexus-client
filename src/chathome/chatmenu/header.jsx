@@ -12,7 +12,7 @@ const Header=({currentusername,currentuserimage,currentuseremail})=>{
   const [displaydelete,setdisplaydelete]=useState(false)
   const [isopen,setisopen]=useState(false)
     const navigate=useNavigate()  
-
+ 
     const logout=()=>{
         navigate("/login")
     }
